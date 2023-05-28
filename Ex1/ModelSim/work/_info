@@ -1,0 +1,182 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Public/NumEx1/Ex1/ModelSim
+vlibtest
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1685293857
+!i10b 1
+!s100 K3IoL2cB^J=i<dkzc3?hU2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IhZN0DV::O@eDB]B[1a>Y23
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z4 w1685291527
+8libtest.sv
+Flibtest.sv
+!i122 3
+L0 5 52
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1685293857.000000
+!s107 libtest.sv|
+!s90 -reportprogress|300|libtest.sv|
+!i113 1
+Z6 tCvgOpt 0
+vmux2
+R1
+!s110 1685292666
+!i10b 1
+!s100 aIb=QHzNF[KN6WHhARI[?2
+R2
+I?7`i=4GZljzzlZLK3V:C63
+R3
+S1
+R0
+w1685292640
+8mux2.sv
+Fmux2.sv
+!i122 0
+L0 2 17
+R5
+r1
+!s85 0
+31
+!s108 1685292666.000000
+!s107 mux2.sv|
+!s90 -reportprogress|300|mux2.sv|
+!i113 1
+R6
+vmux4
+R1
+!s110 1685292871
+!i10b 1
+!s100 `DoeM`JgEBdMlLc_Dz6RE3
+R2
+Ici:ldflC`DK[eDCfEE7i00
+R3
+S1
+R0
+w1685292863
+8mux4.sv
+Fmux4.sv
+!i122 1
+L0 2 15
+R5
+r1
+!s85 0
+31
+!s108 1685292871.000000
+!s107 mux4.sv|
+!s90 -reportprogress|300|mux4.sv|
+!i113 1
+R6
+vmux4_test
+R1
+!s110 1685294735
+!i10b 1
+!s100 SU0>B;3HJ^EX[GliU6ajQ2
+R2
+IDSS53PcGb;dbBHH>UYoO71
+R3
+S1
+R0
+w1685294732
+8mux4_test.sv
+Fmux4_test.sv
+!i122 10
+L0 2 25
+R5
+r1
+!s85 0
+31
+!s108 1685294735.000000
+!s107 mux4_test.sv|
+!s90 -reportprogress|300|mux4_test.sv|
+!i113 1
+R6
+vNAND2
+R1
+!s110 1685294011
+!i10b 1
+!s100 nV_[P_8gj[]?i<@HDENLl2
+R2
+IlXO459gEcm;]5]K[b9[821
+R3
+S1
+R0
+R4
+8libcells/NAND2.sv
+Flibcells/NAND2.sv
+!i122 4
+Z7 L0 1 12
+R5
+r1
+!s85 0
+31
+!s108 1685294011.000000
+!s107 libcells/NAND2.sv|
+!s90 -reportprogress|300|libcells/NAND2.sv|
+!i113 1
+R6
+n@n@a@n@d2
+vOR2
+R1
+!s110 1685294020
+!i10b 1
+!s100 TKP6Xe513KabBIJNZ^OmL2
+R2
+I0iI5_iXMT4Q7i?KEf[N]O0
+R3
+S1
+R0
+R4
+8libcells/OR2.sv
+Flibcells/OR2.sv
+!i122 5
+R7
+R5
+r1
+!s85 0
+31
+!s108 1685294020.000000
+!s107 libcells/OR2.sv|
+!s90 -reportprogress|300|libcells/OR2.sv|
+!i113 1
+R6
+n@o@r2
+vXNOR2
+R1
+!s110 1685294027
+!i10b 1
+!s100 gL:>B`z7><3OLI<>>SCg93
+R2
+IhoPC_jLXLRUdRzB6hF8L70
+R3
+S1
+R0
+R4
+8libcells/XNOR2.sv
+Flibcells/XNOR2.sv
+!i122 6
+R7
+R5
+r1
+!s85 0
+31
+!s108 1685294027.000000
+!s107 libcells/XNOR2.sv|
+!s90 -reportprogress|300|libcells/XNOR2.sv|
+!i113 1
+R6
+n@x@n@o@r2
