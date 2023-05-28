@@ -8,10 +8,18 @@ module alu64bit (
     output logic cout        // Carry out
 );
 
-// Put your code here
-// ------------------
+logic carry[62:0];
 
+alu1bit ALU0 ( .a(a[0]), .b(b[0]), .cin(cin), .op(op), .s(s[0]), .cout(carry[0]));
 
-// End of your code
+genvar i;
+generate
+    for (i=1; i<=62; i++)
+    begin
+        alu1bit ALU (.a(a[i]), .b(b[i]), .cin(carry[i-1]), .op(op), .s(s[i]), .cout(carry[i]));
+    end
+endgenerate
+
+alu1bit ALU63 ( .a(a[63]), .b(b[63]), .cin(carry[62]), .op(op), .s(s[63]), .cout(cout));
 
 endmodule
