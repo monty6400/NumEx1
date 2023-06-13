@@ -24,21 +24,35 @@ main:   # Load data from memory
 # Start of your code
 #mask for 8 lower bits of a
 srli t1, t4, 8
-beq B_ZERO, x0, t1
-beq x0, t4
-andi t1, t3, 0xff
-#multiply first part
-mul t2, t1, t4
-and t2, t2, t0
-add t6, t6, t2
-#shift upper byte of a to lower byte
+beq B_ZERO x0, t1
+
 srli t1, t3, 8
+beq A_ZERO x0, t1
 #multiply second byte
 mul t2, t1, t4
 and t2, t2, t0
 #shift left
 slli t2, t2, 8
 add t6, t6, t2
+
+andi t1, t3, 0xff
+mul t2, t1, t4
+and t2, t2, t0
+add t6, t6, t2
+j END
+#multiply first part
+A_ZERO:
+mul t2, t3, t4
+and t2, t2, t0
+add t6, t6, t2
+j END
+B_ZERO:
+mul t2, t4, t3
+and t2, t2, t0
+add t6, t6, t2
+
+END:
+
 
 # Use the code below for 16x8 multiplication
 #   mul		<PROD>, <FACTOR1>, <FACTOR2>
