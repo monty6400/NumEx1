@@ -11,7 +11,7 @@ module mult32x32_fsm (
     output logic clr_prod         // Clear the product register
 );
 
-typedef enum { idle, S0, S1, S2, S3, S4, S5, S6, S7} sm_type;
+typedef enum { Idle, S0, S1, S2, S3, S4, S5, S6, S7} sm_type;
 logic start_flag;
 sm_type current_state;
 sm_type next_state;
@@ -19,7 +19,7 @@ sm_type next_state;
 // ------------------
 always_comb begin 
     busy = 1'b1;
-    next_state = idle;
+    next_state = Idle;
     a_sel = 2'b0;
     b_sel = 1'b0;
     upd_prod = 1'b1;
@@ -28,11 +28,10 @@ always_comb begin
     case (current_state)
         Idle: begin
             upd_prod = 1'b0;
-            busy = 1'b0;
-            elsif (start_flag == 1'b1) begin
+            busy = 0'b0;
+            if (start_flag == 1'b1) begin
                 next_state = S0;
-                clr_prod = 1'b1; 
-                busy = 1'b1;               
+                clr_prod = 1'b1;               
             end
         end
         S0: begin
@@ -80,14 +79,14 @@ always_comb begin
 end
 
 always_ff @(posedge clk, posedge reset) begin
-    start_flag = 1'b0;
+    start_flag <= 1'b0;
     if (reset == 1'b1) begin
-        current_state <= idle;
+        current_state <= Idle;
     end
     else begin 
         current_state <= next_state;
         if (start==1'b1) begin
-            start_flag = 1'b1;
+            start_flag <= 1'b1;
         end
     end
 end

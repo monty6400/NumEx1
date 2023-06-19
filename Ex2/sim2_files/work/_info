@@ -1,0 +1,131 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/Documents/courses/SemesterB/DS/NumEx1/Ex2/sim2_files
+vmult32x32
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1687192573
+!i10b 1
+!s100 >^O5Pe1TS7F?R[7EELVV=0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IKS`JM;]B`9k<N]U76EVQI2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1687192570
+8mult32x32.sv
+Fmult32x32.sv
+!i122 3
+L0 2 23
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1687192573.000000
+!s107 mult32x32.sv|
+!s90 -reportprogress|300|mult32x32.sv|
+!i113 1
+Z5 tCvgOpt 0
+vmult32x32_arith
+R1
+!s110 1687196401
+!i10b 1
+!s100 WiCbmW^BZB9GKgk:H[AP23
+R2
+IM1=aEUHWVNT]X@W<@GlQd3
+R3
+S1
+R0
+w1687196390
+8mult32x32_arith.sv
+Fmult32x32_arith.sv
+!i122 16
+L0 2 59
+R4
+r1
+!s85 0
+31
+!s108 1687196401.000000
+!s107 mult32x32_arith.sv|
+!s90 -reportprogress|300|mult32x32_arith.sv|
+!i113 1
+R5
+vmult32x32_fast_fsm
+R1
+!s110 1687192253
+!i10b 1
+!s100 HS9G9kk67j9nKX5m=@:`a0
+R2
+I=XhNW3ATajHk@VZZS;<:`3
+R3
+S1
+R0
+w1686672047
+8mult32x32_fast_fsm.sv
+Fmult32x32_fast_fsm.sv
+!i122 0
+L0 2 21
+R4
+r1
+!s85 0
+31
+!s108 1687192253.000000
+!s107 mult32x32_fast_fsm.sv|
+!s90 -reportprogress|300|mult32x32_fast_fsm.sv|
+!i113 1
+R5
+vmult32x32_fsm
+R1
+!s110 1687196646
+!i10b 1
+!s100 fk<H;`B9H2CCIl`ReB5<13
+R2
+II3ma6oVF_QN9jMc7<B4CW1
+R3
+S1
+R0
+w1687194927
+8mult32x32_fsm.sv
+Fmult32x32_fsm.sv
+!i122 17
+L0 2 96
+R4
+r1
+!s85 0
+31
+!s108 1687196646.000000
+!s107 mult32x32_fsm.sv|
+!s90 -reportprogress|300|mult32x32_fsm.sv|
+!i113 1
+R5
+vmult32x32_test
+R1
+!s110 1687196657
+!i10b 1
+!s100 0>GSF3?bHXLjDK:;HmoUP0
+R2
+I08knMMZ7G5dZ2Bc=^mSC31
+R3
+S1
+R0
+w1687196605
+8mult32x32_test.sv
+Fmult32x32_test.sv
+!i122 18
+L0 2 38
+R4
+r1
+!s85 0
+31
+!s108 1687196657.000000
+!s107 mult32x32_test.sv|
+!s90 -reportprogress|300|mult32x32_test.sv|
+!i113 1
+R5
