@@ -17,6 +17,59 @@ module mult32x32_fast_arith (
 // Put your code here
 // ------------------
 
+logic [23:0] mul;
+logic [63:0] shifted_mul;
+logic [5:0] shift_tmp;
+logic [63:0] sum;
+logic [7:0] a_byte;
+logic [15:0] b_word;
+
+always_comb begin
+    a_msb_is_0 = 0;
+    b_msw_is_0 = 0;
+    if (a[31:24] == 8'b0) begin
+        a_msb_is_0 = 1'b1;
+    end
+    if (b[31:16] == 16'b0) begin
+        b_msw_is_0 = 1'b1;
+    end
+
+    a_byte = a[7:0];
+    case (a_sel)
+        2'b01: begin
+            a_byte = a[15:8];
+        end
+        2'b10: begin
+            a_byte = a[23:16];
+        end
+        2'b11: begin
+            a_byte = a[31:24];
+        end
+    endcase
+    b_word = b[15:0];
+    if (b_sel == 1'b1) begin
+        b_word = b[31:16];
+    end
+    mul = a_byte*b_word;
+    if (shift_sel == 3'b110 || shift_sel == 3'b111) begin
+        shifted_mul = 64'b0;
+    end
+    else begin 
+        shift_tmp = shift_sel << 3;
+        shifted_mul = mul<<(shift_tmp);
+    end
+    product = sum;
+end
+
+always_ff begin @(posedge clk, posedge reset)
+    if (reset == 1'b1 || clr_prod == 1'b1) begin 
+        sum <= 64'b0;
+    end
+    else if (upd_prod == 1'b1) begin
+        sum <= sum + shifted_mul;
+    end
+end
+
 
 // End of your code
 
