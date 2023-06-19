@@ -94,10 +94,6 @@ always_comb begin
                     next_state = S6;
                 end
             end
-            next_state = S6;
-            a_sel = 2'b10;
-            b_sel = 1'b1;
-            shift_sel = 3'b100;
         end
         S6: begin
             next_state = S7;

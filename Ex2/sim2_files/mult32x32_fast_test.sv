@@ -35,7 +35,6 @@ module mult32x32_fast_test;
         #10
         start=1'b0;
         #100
-
         $stop;
     end
 
