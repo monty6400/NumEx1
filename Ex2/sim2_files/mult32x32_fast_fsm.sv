@@ -49,7 +49,7 @@ always_comb begin
             else begin
                 next_state = S3;
                 a_sel = 2'b01;
-                shift_sel = 2'b001;
+                shift_sel = 3'b001;
             end
         end
         S2: begin
@@ -91,7 +91,7 @@ always_comb begin
                 b_sel = 1'b1;
                 shift_sel = 3'b100;
                 if (a_msb_is_0==0) begin
-                    next_state = s6;
+                    next_state = S6;
                 end
             end
             next_state = S6;
