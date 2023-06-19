@@ -12,7 +12,6 @@ module mult32x32_fsm (
 );
 
 typedef enum { idle, S0, S1, S2, S3, S4, S5, S6, S7} sm_type;
-logic rst_flag;
 logic start_flag;
 sm_type current_state;
 sm_type next_state;
@@ -30,9 +29,6 @@ always_comb begin
         Idle: begin
             upd_prod = 1'b0;
             busy = 1'b0;
-            if (rst_flag == 1'b1) begin
-                clr_prod =1'b1;                                
-            end
             elsif (start_flag == 1'b1) begin
                 next_state = S0;
                 clr_prod = 1'b1; 
@@ -84,11 +80,9 @@ always_comb begin
 end
 
 always_ff @(posedge clk, posedge reset) begin
-    rst_flag = 1'b0;
     start_flag = 1'b0;
     if (reset == 1'b1) begin
         current_state <= idle;
-        rst_flag = 1'b1;
     end
     else begin 
         current_state <= next_state;
