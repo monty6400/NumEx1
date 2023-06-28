@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T18:46:21.862Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="1NaXNQfMvkA_KbvqBWx0" version="21.5.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-19T19:57:53.549Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="SRLi_S0Xz1s15G_tAQ4p" version="21.5.0" type="github" pages="2">
   <diagram name="Mul32x32" id="QRuHNjkxRnGpMCgw-yJH">
-    <mxGraphModel dx="1958" dy="1715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2807" dy="2124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -145,7 +145,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xRHMBbyLrOiUbwhX3-N8" name="fast_mul">
-    <mxGraphModel dx="2335" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3490" dy="2373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
