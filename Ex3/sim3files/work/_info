@@ -1,0 +1,110 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Public/NumEx1/Ex3/sim3files
+vrv_ctl
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1687951314
+!i10b 1
+!s100 1R]lY3@B89IhiL2VE]_;k0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IX[W0beUKNSiYBGl5EPaS40
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1687951311
+8rv_ctl.sv
+Frv_ctl.sv
+Z4 Fparams.inc
+!i122 4
+L0 7 245
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1687951314.000000
+!s107 params.inc|rv_ctl.sv|
+!s90 -reportprogress|300|rv_ctl.sv|
+!i113 1
+Z6 tCvgOpt 0
+vrv_dp
+R1
+!s110 1687951661
+!i10b 1
+!s100 3_lP3Pla=[B9=8Ab>5ARm2
+R2
+I_a=O>Rh2J6FGK:[2NLLi12
+R3
+S1
+R0
+Z7 w1687951660
+8rv_dp.sv
+Frv_dp.sv
+R4
+!i122 7
+L0 7 231
+R5
+r1
+!s85 0
+31
+!s108 1687951661.000000
+!s107 params.inc|rv_dp.sv|
+!s90 -reportprogress|300|rv_dp.sv|
+!i113 1
+R6
+vrv_sim
+R1
+!s110 1687951702
+!i10b 1
+!s100 na?79B]>8ccm4<X7S;?g;3
+R2
+I26UKiT:Q8f8YARD::?JZG0
+R3
+S1
+R0
+R7
+8rv_sim.sv
+Frv_sim.sv
+R4
+!i122 9
+L0 7 161
+R5
+r1
+!s85 0
+31
+!s108 1687951702.000000
+!s107 params.inc|rv_sim.sv|
+!s90 -reportprogress|300|rv_sim.sv|
+!i113 1
+R6
+vrv_top
+R1
+!s110 1687951815
+!i10b 1
+!s100 ?T<f9]<8LbQ]]OmiBa8OW0
+R2
+I8H5c;e9GPl@C@N?Ed=[DM0
+R3
+S1
+R0
+w1687951807
+8rv_top.sv
+Frv_top.sv
+!i122 10
+L0 8 102
+R5
+r1
+!s85 0
+31
+!s108 1687951815.000000
+!s107 rv_top.sv|
+!s90 -reportprogress|300|rv_top.sv|
+!i113 1
+R6

@@ -8,10 +8,10 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/User/Documents/courses/SemesterB/DS/NumEx1/Ex2/sim2_files
+Z0 dC:/Users/Public/NumEx1/Ex2/sim2_files
 vmult32x32
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1687192573
+!s110 1687204824
 !i10b 1
 !s100 >^O5Pe1TS7F?R[7EELVV=0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -19,23 +19,23 @@ IKS`JM;]B`9k<N]U76EVQI2
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1687192570
+Z4 w1687197413
 8mult32x32.sv
 Fmult32x32.sv
-!i122 3
-Z4 L0 2 23
-Z5 OV;L;2020.1;71
+!i122 9
+Z5 L0 2 23
+Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1687192573.000000
+!s108 1687204824.000000
 !s107 mult32x32.sv|
 !s90 -reportprogress|300|mult32x32.sv|
 !i113 1
-Z6 tCvgOpt 0
+Z7 tCvgOpt 0
 vmult32x32_arith
 R1
-!s110 1687196401
+!s110 1687204831
 !i10b 1
 !s100 WiCbmW^BZB9GKgk:H[AP23
 R2
@@ -43,23 +43,47 @@ IM1=aEUHWVNT]X@W<@GlQd3
 R3
 S1
 R0
-w1687196390
+R4
 8mult32x32_arith.sv
 Fmult32x32_arith.sv
-!i122 16
+!i122 10
 L0 2 59
-R5
+R6
 r1
 !s85 0
 31
-!s108 1687196401.000000
+!s108 1687204831.000000
 !s107 mult32x32_arith.sv|
 !s90 -reportprogress|300|mult32x32_arith.sv|
 !i113 1
+R7
+vmult32x32_autotest
+R1
+!s110 1687201967
+!i10b 1
+!s100 [7kWa>]=XVCC`BJWE_iFa0
+R2
+I4WgXB3D8QW3ECn>YLSnba0
+R3
+S1
+R0
+Z8 w1687201909
+8mult32x32_autotest.sv
+Fmult32x32_autotest.sv
+!i122 3
+Z9 L0 2 60
 R6
+r1
+!s85 0
+31
+!s108 1687201967.000000
+!s107 mult32x32_autotest.sv|
+!s90 -reportprogress|300|mult32x32_autotest.sv|
+!i113 1
+R7
 vmult32x32_fast
 R1
-!s110 1687199843
+!s110 1687204837
 !i10b 1
 !s100 YEg1R0?1PMoVCU86l5PN71
 R2
@@ -67,23 +91,23 @@ Ia2?GK7oe@g?[DTE5JHlCQ0
 R3
 S1
 R0
-w1687199833
+w1687200834
 8mult32x32_fast.sv
 Fmult32x32_fast.sv
-!i122 25
-R4
+!i122 11
 R5
+R6
 r1
 !s85 0
 31
-!s108 1687199843.000000
+!s108 1687204837.000000
 !s107 mult32x32_fast.sv|
 !s90 -reportprogress|300|mult32x32_fast.sv|
 !i113 1
-R6
+R7
 vmult32x32_fast_arith
 R1
-!s110 1687199430
+!s110 1687204844
 !i10b 1
 !s100 Kg`eYh@VFGo_>oUHKZ7^E0
 R2
@@ -91,71 +115,95 @@ InZ`c;3LG0;khSfYo_l;I[3
 R3
 S1
 R0
-w1687198668
+w1687198957
 8mult32x32_fast_arith.sv
 Fmult32x32_fast_arith.sv
-!i122 19
+!i122 12
 L0 2 75
-R5
+R6
 r1
 !s85 0
 31
-!s108 1687199430.000000
+!s108 1687204844.000000
 !s107 mult32x32_fast_arith.sv|
 !s90 -reportprogress|300|mult32x32_fast_arith.sv|
 !i113 1
-R6
-vmult32x32_fast_fsm
+R7
+vmult32x32_fast_autotest
 R1
-!s110 1687199517
+!s110 1687204850
 !i10b 1
-!s100 H74L=i139^I]8EUcl2?;P0
+!s100 D0c`_KYfQ;zc<K0Q`<CWW0
 R2
-I[kJ[_jBVFf]JmzbCIUk`d1
+INaEc=b=KiTHY1o7^GYab@2
 R3
 S1
 R0
-w1687199500
-8mult32x32_fast_fsm.sv
-Fmult32x32_fast_fsm.sv
-!i122 21
-L0 2 130
-R5
+R8
+8mult32x32_fast_autotest.sv
+Fmult32x32_fast_autotest.sv
+!i122 13
+R9
+R6
 r1
 !s85 0
 31
-!s108 1687199516.000000
+!s108 1687204850.000000
+!s107 mult32x32_fast_autotest.sv|
+!s90 -reportprogress|300|mult32x32_fast_autotest.sv|
+!i113 1
+R7
+vmult32x32_fast_fsm
+R1
+!s110 1687204858
+!i10b 1
+!s100 :PTkil62Wo0Qz<CLA^0<^2
+R2
+IAj70miP8hL;gOB[@U3;5Q0
+R3
+S1
+R0
+w1687201196
+8mult32x32_fast_fsm.sv
+Fmult32x32_fast_fsm.sv
+!i122 14
+L0 2 126
+R6
+r1
+!s85 0
+31
+!s108 1687204858.000000
 !s107 mult32x32_fast_fsm.sv|
 !s90 -reportprogress|300|mult32x32_fast_fsm.sv|
 !i113 1
-R6
+R7
 vmult32x32_fast_test
 R1
-!s110 1687199913
+!s110 1687204865
 !i10b 1
-!s100 @aYWo:?7MkAAd_JV4Nk5W1
+!s100 Wh;^^MB6TZHM3la1Do;TH2
 R2
-I=0;PUlJ_3?@hj3OhlPZ[N0
+Il18Q9Adc^^nLK8lf52<5L0
 R3
 S1
 R0
-w1687199903
+w1687202089
 8mult32x32_fast_test.sv
 Fmult32x32_fast_test.sv
-!i122 26
-L0 2 48
-R5
+!i122 15
+L0 2 47
+R6
 r1
 !s85 0
 31
-!s108 1687199913.000000
+!s108 1687204865.000000
 !s107 mult32x32_fast_test.sv|
 !s90 -reportprogress|300|mult32x32_fast_test.sv|
 !i113 1
-R6
+R7
 vmult32x32_fsm
 R1
-!s110 1687196646
+!s110 1687204873
 !i10b 1
 !s100 fk<H;`B9H2CCIl`ReB5<13
 R2
@@ -163,23 +211,23 @@ II3ma6oVF_QN9jMc7<B4CW1
 R3
 S1
 R0
-w1687194927
+R4
 8mult32x32_fsm.sv
 Fmult32x32_fsm.sv
-!i122 17
+!i122 16
 L0 2 96
-R5
+R6
 r1
 !s85 0
 31
-!s108 1687196646.000000
+!s108 1687204873.000000
 !s107 mult32x32_fsm.sv|
 !s90 -reportprogress|300|mult32x32_fsm.sv|
 !i113 1
-R6
+R7
 vmult32x32_test
 R1
-!s110 1687196657
+!s110 1687204881
 !i10b 1
 !s100 0>GSF3?bHXLjDK:;HmoUP0
 R2
@@ -187,17 +235,17 @@ I08knMMZ7G5dZ2Bc=^mSC31
 R3
 S1
 R0
-w1687196605
+R4
 8mult32x32_test.sv
 Fmult32x32_test.sv
-!i122 18
+!i122 17
 L0 2 38
-R5
+R6
 r1
 !s85 0
 31
-!s108 1687196657.000000
+!s108 1687204881.000000
 !s107 mult32x32_test.sv|
 !s90 -reportprogress|300|mult32x32_test.sv|
 !i113 1
-R6
+R7
