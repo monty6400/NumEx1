@@ -129,7 +129,7 @@
 
  // ALU input A
  logic [DPWIDTH-1:0] alu_b;
- assign alu_b = (bsel == ALUB_REG) ? b : (bsel==ALUB_IMM)? imm : ALUB_ALL_ONES;
+ assign alu_b = (bsel == ALUB_REG) ? b : (bsel==ALUB_IMM)? imm : DW_ALL_ONES;
 
  // For signed comparison, cast to integer. logic is by default unsigned
  integer alu_as;

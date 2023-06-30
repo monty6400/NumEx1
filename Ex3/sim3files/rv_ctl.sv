@@ -153,7 +153,7 @@ sm_type current,next;
         end
         ADDI_XOR: begin
             asel    = ALUA_ALUOUT;
-            bsel    = ALUB_FFFF;
+            bsel    = ALUB_ALL_ONES;
             alusel  = ALU_XOR;
         end
         LW_MEM:
